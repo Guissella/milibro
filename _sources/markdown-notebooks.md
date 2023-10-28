@@ -18,15 +18,15 @@ Jupyter Book also lets you write text-based notebooks using MyST Markdown.
 See [the Notebooks with MyST Markdown documentation](https://jupyterbook.org/file-types/myst-notebooks.html) for more detailed instructions.
 This page shows off a notebook written in MyST Markdown.
 
-## An example cell
+## AN EXAMPLE CELL
 
 With MyST Markdown, you can define code cells with a directive like so:
 
 ```{code-cell}
-print(2 + 2)
+print(8 + 8)
 ```
 
-When your book is built, the contents of any `{code-cell}` blocks will be
+When you create your book, the contents of any `{code-cell}` blocks will be
 executed with your default Jupyter kernel, and their outputs will be displayed
 in-line with the rest of your content.
 
@@ -36,7 +36,7 @@ Jupyter Book uses [Jupytext](https://jupytext.readthedocs.io/en/latest/) to conv
 
 ## Create a notebook with MyST Markdown
 
-MyST Markdown notebooks are defined by two things:
+MyST Markdown notebooks are defined by two main things:
 
 1. YAML metadata that is needed to understand if / how it should convert text files to notebooks (including information about the kernel needed).
    See the YAML at the top of this page for example.
