@@ -36,7 +36,7 @@ Jupyter Book uses [Jupytext](https://jupytext.readthedocs.io/en/latest/) to conv
 
 ## Create a notebook with MyST Markdown
 
-MyST Markdown notebooks are defined by two things:
+MyST Markdown notebooks are defined by two main things:
 
 1. YAML metadata that is needed to understand if / how it should convert text files to notebooks (including information about the kernel needed).
    See the YAML at the top of this page for example.
